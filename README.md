@@ -10,6 +10,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## ✨ Características
 
+
+
+
 - 🎥 Integración con YouTube (muestra el video más reciente automáticamente)
 - 📸 Sección de Instagram
 - 🎭 Sección de Tour/Eventos
