@@ -116,7 +116,7 @@ export default function TourSection() {
       location: "MONTERREY, MX - TECATE PA'L NORTE",
     },
     { date: "11.ABR", year: 2026, location: "GUADALAJARA, MX - C4 STAGE" },
-    { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL LAGO" },
+    { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL" },
   ];
 
   // Links para cada fecha del tour
@@ -150,6 +150,7 @@ export default function TourSection() {
     "28.MAR": "https://www.tecatepalnorte.com/boletos",
     "11.ABR":
       "https://www.ticketnowmexico.com/evento/presentacion/allison-en-c4-concert-house/918",
+    "25.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/", 
   };
 
   // Filtrar solo las fechas futuras y excluir fechas específicas
