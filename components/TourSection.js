@@ -116,6 +116,7 @@ export default function TourSection() {
       location: "MONTERREY, MX - TECATE PA'L NORTE",
     },
     { date: "11.ABR", year: 2026, location: "GUADALAJARA, MX - C4 STAGE" },
+    { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL LAGO" },
   ];
 
   // Links para cada fecha del tour
