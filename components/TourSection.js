@@ -118,6 +118,7 @@ export default function TourSection() {
     { date: "11.ABR", year: 2026, location: "GUADALAJARA, MX - C4 STAGE" },
     { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL" },
     { date: "01.MAY", year: 2026, location: "JOJUTLA, MX - JARDINES DE MÉXICO" },
+    { date: "16.JUL", year: 2026, location: "CORPUS CHRISTI, USA - HOUSE OF ROCK" },
   ];
 
   // Links para cada fecha del tour
@@ -152,7 +153,8 @@ export default function TourSection() {
     "11.ABR":
       "https://www.ticketnowmexico.com/evento/presentacion/allison-en-c4-concert-house/918",
     "26.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/",
-    "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg", 
+    "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg",
+    "16.JUL": "https://www.etix.com/ticket/p/39765848/allison-eforia-usa-tour-corpus-christi-house-of-rock", 
   };
 
   // Filtrar solo las fechas futuras y excluir fechas específicas
