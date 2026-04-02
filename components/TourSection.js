@@ -117,6 +117,7 @@ export default function TourSection() {
     },
     { date: "11.ABR", year: 2026, location: "GUADALAJARA, MX - C4 STAGE" },
     { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL" },
+    { date: "01.MAY", year: 2026, location: "JOJUTLA, MX - JARDINES DE MÉXICO" },
   ];
 
   // Links para cada fecha del tour
@@ -150,7 +151,8 @@ export default function TourSection() {
     "28.MAR": "https://www.tecatepalnorte.com/boletos",
     "11.ABR":
       "https://www.ticketnowmexico.com/evento/presentacion/allison-en-c4-concert-house/918",
-    "25.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/", 
+    "26.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/",
+    "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg", 
   };
 
   // Filtrar solo las fechas futuras y excluir fechas específicas
