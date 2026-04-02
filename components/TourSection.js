@@ -119,6 +119,21 @@ export default function TourSection() {
     { date: "26.ABR", year: 2026, location: "AGUASCALIENTES, MX - FORO DEL" },
     { date: "01.MAY", year: 2026, location: "JOJUTLA, MX - JARDINES DE MÉXICO" },
     { date: "16.JUL", year: 2026, location: "CORPUS CHRISTI, USA - HOUSE OF ROCK" },
+    { date: "17.JUL", year: 2026, location: "HOUSTON, USA - THE BRONZE PEACOCK AT HOUSE OF BLUES" },
+    { date: "18.JUL", year: 2026, location: "SAN ANTONIO, USA - THE PAPER TIGER" },
+    { date: "19.JUL", year: 2026, location: "DALLAS, USA - PUZZLES DEEP ELLUM" },
+    { date: "21.JUL", year: 2026, location: "EL PASO, USA - LOWBROW PALACE" },
+    { date: "22.JUL", year: 2026, location: "ALBUQUERQUE, USA - SUNSHINE THEATER" },
+    { date: "23.JUL", year: 2026, location: "MESA, USA - THE NILE THEATER" },
+    { date: "24.JUL", year: 2026, location: "SAN DIEGO, USA - BRICK BY BRICK" },
+    { date: "25.JUL", year: 2026, location: "LONG BEACH, USA - VANS WARPED TOUR" },
+    { date: "26.JUL", year: 2026, location: "LONG BEACH, USA - VANS WARPED TOUR" },
+    { date: "01.AGO", year: 2026, location: "BOGOTÁ, COL - LOURDES MUSIC HALL" },
+    { date: "12.SEP", year: 2026, location: "CDMX, MX - VANS WARPED TOUR" },
+    { date: "13.SEP", year: 2026, location: "CDMX, MX - VANS WARPED TOUR" },
+    { date: "14.NOV", year: 2026, location: "ORLANDO, USA - VANS WARPED TOUR" },
+    { date: "15.NOV", year: 2026, location: "ORLANDO, USA - VANS WARPED TOUR" },
+
   ];
 
   // Links para cada fecha del tour
@@ -155,6 +170,20 @@ export default function TourSection() {
     "26.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/",
     "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg",
     "16.JUL": "https://www.etix.com/ticket/p/39765848/allison-eforia-usa-tour-corpus-christi-house-of-rock", 
+    "17.JUL": "https://www.ticketmaster.com/event/3A0064729BC87FD9",
+    "18.JUL": "https://www.eventim.us/wafform.aspx?_act=eventtickets&_pky=684751",
+    "19.JUL": "https://wl.eventim.us/event/allison/685462?afflky=PuzzlesDeepEllum",
+    "21.JUL": "https://wl.eventim.us/event/allison/684995?afflky=LowbrowPalace",
+    "22.JUL": "https://holdmyticket.com/event/454981",
+    "23.JUL": "https://wl.eventim.us/event/allison/685448?afflky=13thFloorEntertainment",
+    "24.JUL": "https://www.ticketweb.com/event/allison-euforia-usa-brick-by-brick-tickets/14789193",
+    "25.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
+    "26.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
+    "01.AGO": "https://www.mitaquilla.com.co/allison-bogota/",
+    "12.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
+    "13.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
+    "14.NOV": "https://vanswarpedtourorlando.frontgatetickets.com/?fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*60zap4*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTI0NDYyMzQxOS4xNzcyNzQxMTgy*_ga_9Y39919PMG*czE3NzI3NDExODEkbzEkZzAkdDE3NzI3NDExODEkajYwJGwwJGgxNzA0OTEyMTAw",
+    "15.NOV": "https://vanswarpedtourorlando.frontgatetickets.com/?fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*60zap4*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTI0NDYyMzQxOS4xNzcyNzQxMTgy*_ga_9Y39919PMG*czE3NzI3NDExODEkbzEkZzAkdDE3NzI3NDExODEkajYwJGwwJGgxNzA0OTEyMTAw",
   };
 
   // Filtrar solo las fechas futuras y excluir fechas específicas
