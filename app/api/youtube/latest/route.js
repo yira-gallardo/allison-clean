@@ -9,14 +9,14 @@ export async function GET(request) {
   if (!channelHandle) {
     return NextResponse.json(
       { error: "Channel handle is required" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   if (!apiKey) {
     return NextResponse.json(
       { error: "YouTube API key is not configured" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 
@@ -26,7 +26,7 @@ export async function GET(request) {
     // If it's a channel ID (starts with UC), use it directly
     if (channelHandle.startsWith("UC")) {
       const channelResponse = await fetch(
-        `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${channelHandle}&key=${apiKey}`
+        `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${channelHandle}&key=${apiKey}`,
       );
 
       if (!channelResponse.ok) {
@@ -35,7 +35,7 @@ export async function GET(request) {
         throw new Error(
           `Failed to fetch channel data: ${
             errorData.error?.message || channelResponse.statusText
-          }`
+          }`,
         );
       }
 
@@ -48,8 +48,8 @@ export async function GET(request) {
 
       const channelResponse = await fetch(
         `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forHandle=${encodeURIComponent(
-          handle
-        )}&key=${apiKey}`
+          handle,
+        )}&key=${apiKey}`,
       );
 
       if (!channelResponse.ok) {
@@ -58,7 +58,7 @@ export async function GET(request) {
         throw new Error(
           `Failed to fetch channel by handle: ${
             errorData.error?.message || channelResponse.statusText
-          }`
+          }`,
         );
       }
 
@@ -74,7 +74,7 @@ export async function GET(request) {
 
     // Get the latest video from the uploads playlist
     const videosResponse = await fetch(
-      `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${uploadsPlaylistId}&maxResults=1&order=date&key=${apiKey}`
+      `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${uploadsPlaylistId}&maxResults=1&order=date&key=${apiKey}`,
     );
 
     if (!videosResponse.ok) {
@@ -83,7 +83,7 @@ export async function GET(request) {
       throw new Error(
         `Failed to fetch videos: ${
           errorData.error?.message || videosResponse.statusText
-        }`
+        }`,
       );
     }
 
@@ -98,7 +98,7 @@ export async function GET(request) {
     console.error("YouTube API error:", error);
     return NextResponse.json(
       { error: error.message, details: error.toString() },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
