@@ -8,7 +8,7 @@ export default function InstagramSection() {
     // Load LightWidget script if not already loaded
     if (
       !document.querySelector(
-        'script[src="https://cdn.lightwidget.com/widgets/lightwidget.js"]'
+        'script[src="https://cdn.lightwidget.com/widgets/lightwidget.js"]',
       )
     ) {
       const script = document.createElement("script");
@@ -63,7 +63,7 @@ export default function InstagramSection() {
             src="https://cdn.lightwidget.com/widgets/09ab80bcab075737b48dba2c4f67b1a5.html"
             scrolling="no"
             allowtransparency="true"
-            class="lightwidget-widget"
+            className="lightwidget-widget"
             style={{
               width: "100%",
               border: 0,
