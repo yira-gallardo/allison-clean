@@ -189,6 +189,7 @@ export default function TourSection() {
     "01.AGO": "https://www.mitaquilla.com.co/allison-bogota/",
     "12.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
     "13.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
+    "24.OCT": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A",
     "14.NOV": "https://vanswarpedtourorlando.frontgatetickets.com/?fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*60zap4*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTI0NDYyMzQxOS4xNzcyNzQxMTgy*_ga_9Y39919PMG*czE3NzI3NDExODEkbzEkZzAkdDE3NzI3NDExODEkajYwJGwwJGgxNzA0OTEyMTAw",
     "15.NOV": "https://vanswarpedtourorlando.frontgatetickets.com/?fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*60zap4*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTI0NDYyMzQxOS4xNzcyNzQxMTgy*_ga_9Y39919PMG*czE3NzI3NDExODEkbzEkZzAkdDE3NzI3NDExODEkajYwJGwwJGgxNzA0OTEyMTAw",
   };
