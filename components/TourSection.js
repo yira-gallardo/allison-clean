@@ -181,17 +181,17 @@ export default function TourSection() {
     "25.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
     "26.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
     "01.AGO": "https://www.mitaquilla.com.co/allison-bogota/",
-    "22.AGO": "https://www.facebook.com/profile.php?id=61550956457949"
-    "27.AGO": ""
-    "28.AGO": ""
-    "29.AGO": ""
-    "03.SEP": ""
-    "04.SEP": ""
-    "05.SEP": ""
-    "10.SEP": "https://imct.gov.co/feria-bonita/"
+    "22.AGO": "https://www.facebook.com/profile.php?id=61550956457949",
+    "27.AGO": "https://www.facebook.com/Allisonoficial",
+    "28.AGO": "https://www.facebook.com/Allisonoficial",
+    "29.AGO": "https://www.facebook.com/Allisonoficial",
+    "03.SEP": "https://www.facebook.com/Allisonoficial",
+    "04.SEP": "https://www.facebook.com/Allisonoficial",
+    "05.SEP": "https://www.facebook.com/Allisonoficial",
+    "10.SEP": "https://imct.gov.co/feria-bonita/",
     "12.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
     "13.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
-    "01.OCT": "https://www.joinnus.com/events/concerts/huancayo-allison-en-huancayo-euforia-tour-77135"
+    "01.OCT": "https://www.joinnus.com/events/concerts/huancayo-allison-en-huancayo-euforia-tour-77135",
     "02.OCT": "https://www.joinnus.com/events/concerts/arequipa-allison-en-arequipa-euforia-tour-76340?fbclid=IwY2xjawSBkDNleHRuA2FlbQIxMABicmlkETFhZXNVSnMwM0g0b2lqUjhkc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiduvG2EHDxvIqgnPhNSoZbDusrLoupidhp1laLO2B4QSnbr-YVT82Ltl4nn_aem_JwkqCL_DPMMKrBYTjjINQw",
     "03.OCT": "https://www.passline.com/eventos/allison-en-lima-euforia-tour",
     "24.OCT": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A",
