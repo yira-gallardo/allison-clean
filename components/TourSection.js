@@ -120,19 +120,21 @@ export default function TourSection() {
     { date: "01.MAY", year: 2026, location: "JOJUTLA, MX - JARDINES DE MÉXICO" },
     { date: "16.MAY", year: 2026, location: "LA PAZ, MX - FIESTAS DE FUNDACIÓN" },
     { date: "13.JUN", year: 2026, location: "TEXCOCO, MX - CASCARITA FUT FEST" },
-    { date: "16.JUL", year: 2026, location: "CORPUS CHRISTI, USA - HOUSE OF ROCK" },
-    { date: "17.JUL", year: 2026, location: "HOUSTON, USA - THE BRONZE PEACOCK AT HOUSE OF BLUES" },
-    { date: "18.JUL", year: 2026, location: "SAN ANTONIO, USA - THE PAPER TIGER" },
-    { date: "19.JUL", year: 2026, location: "DALLAS, USA - PUZZLES DEEP ELLUM" },
-    { date: "21.JUL", year: 2026, location: "EL PASO, USA - LOWBROW PALACE" },
-    { date: "22.JUL", year: 2026, location: "ALBUQUERQUE, USA - SUNSHINE THEATER" },
-    { date: "23.JUL", year: 2026, location: "MESA, USA - THE NILE THEATER" },
     { date: "24.JUL", year: 2026, location: "SAN DIEGO, USA - BRICK BY BRICK" },
     { date: "25.JUL", year: 2026, location: "LONG BEACH, USA - VANS WARPED TOUR" },
     { date: "26.JUL", year: 2026, location: "LONG BEACH, USA - VANS WARPED TOUR" },
     { date: "01.AGO", year: 2026, location: "BOGOTÁ, COL - LOURDES MUSIC HALL" },
+    { date: "22.AGO", year: 2026, location: "ATLACOMULCO, MX - MCCARTHY'S" },
+    { date: "27.AGO", year: 2026, location: "QUITO, EC - TICKETS AVAILABLE SOON" },
+    { date: "28.AGO", year: 2026, location: "AMBATO, EC - TICKETS AVAILABLE SOON" },
+    { date: "29.AGO", year: 2026, location: "IBARRA, EC - TICKETS AVAILABLE SOON" },
+    { date: "03.SEP", year: 2026, location: "CUENCA, EC - TICKETS AVAILABLE SOON" },
+    { date: "04.SEP", year: 2026, location: "GUAYAQUIL, EC - TICKETS AVAILABLE SOON" },
+    { date: "05.SEP", year: 2026, location: "MANTA, EC - TICKETS AVAILABLE SOON" },
+    { date: "10.SEP", year: 2026, location: "BUCARAMANGA, COL - PLAZOLETA CÍVICA" },
     { date: "12.SEP", year: 2026, location: "CDMX, MX - VANS WARPED TOUR" },
     { date: "13.SEP", year: 2026, location: "CDMX, MX - VANS WARPED TOUR" },
+    { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - TEATRO FÉNIX" },
     { date: "02.OCT", year: 2026, location: "AREQUIPA, PE - TEATRO FÉNIX" },
     { date: "03.OCT", year: 2026, location: "LIMA, PE - CC FESTIVA" },
     { date: "24.OCT", year: 2026, location: "MONTERREY, MX - CAFÉ IGUANA" },
@@ -176,19 +178,20 @@ export default function TourSection() {
     "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg",
     "16.MAY": "https://www.facebook.com/DireccionMunicipalDeCulturaDeLaPaz",
     "13.JUN": "https://cascaritafutfest13.boletia.com/",
-    "16.JUL": "https://www.etix.com/ticket/p/39765848/allison-eforia-usa-tour-corpus-christi-house-of-rock", 
-    "17.JUL": "https://www.ticketmaster.com/event/3A0064729BC87FD9",
-    "18.JUL": "https://www.eventim.us/wafform.aspx?_act=eventtickets&_pky=684751",
-    "19.JUL": "https://wl.eventim.us/event/allison/685462?afflky=PuzzlesDeepEllum",
-    "21.JUL": "https://wl.eventim.us/event/allison/684995?afflky=LowbrowPalace",
-    "22.JUL": "https://holdmyticket.com/event/454981",
-    "23.JUL": "https://wl.eventim.us/event/allison/685448?afflky=13thFloorEntertainment",
-    "24.JUL": "https://www.ticketweb.com/event/allison-euforia-usa-brick-by-brick-tickets/14789193",
     "25.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
     "26.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
     "01.AGO": "https://www.mitaquilla.com.co/allison-bogota/",
+    "22.AGO": "https://www.facebook.com/profile.php?id=61550956457949"
+    "27.AGO": ""
+    "28.AGO": ""
+    "29.AGO": ""
+    "03.SEP": ""
+    "04.SEP": ""
+    "05.SEP": ""
+    "10.SEP": "https://imct.gov.co/feria-bonita/"
     "12.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
     "13.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
+    "01.OCT": "https://www.joinnus.com/events/concerts/huancayo-allison-en-huancayo-euforia-tour-77135"
     "02.OCT": "https://www.joinnus.com/events/concerts/arequipa-allison-en-arequipa-euforia-tour-76340?fbclid=IwY2xjawSBkDNleHRuA2FlbQIxMABicmlkETFhZXNVSnMwM0g0b2lqUjhkc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiduvG2EHDxvIqgnPhNSoZbDusrLoupidhp1laLO2B4QSnbr-YVT82Ltl4nn_aem_JwkqCL_DPMMKrBYTjjINQw",
     "03.OCT": "https://www.passline.com/eventos/allison-en-lima-euforia-tour",
     "24.OCT": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A",
