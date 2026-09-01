@@ -48,7 +48,6 @@ export default function TourSection() {
   };
 
   const tourDates = [
-    { date: "22.AGO", year: 2026, location: "ATLACOMULCO, MX - MCCARTHY'S" },
     { date: "10.SEP", year: 2026, location: "BUCARAMANGA, COL - PLAZOLETA CÍVICA" },
     { date: "12.SEP", year: 2026, location: "CDMX, MX - VANS WARPED TOUR" },
     { date: "15.SEP", year: 2026, location: "HOUSTON, USA - THE BRONZE PEACOCK AT HOUSE OF BLUES" },
@@ -65,9 +64,12 @@ export default function TourSection() {
     { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - TEATRO FÉNIX" },
     { date: "02.OCT", year: 2026, location: "AREQUIPA, PE - TEATRO FÉNIX" },
     { date: "03.OCT", year: 2026, location: "LIMA, PE - CC FESTIVA" },
+    { date: "09.OCT", year: 2026, location: "PUEBLA, MX - AUDITORIO AREMA" },
     { date: "24.OCT", year: 2026, location: "MONTERREY, MX - CAFÉ IGUANA" },
     { date: "14.NOV", year: 2026, location: "ORLANDO, USA - VANS WARPED TOUR" },
     { date: "15.NOV", year: 2026, location: "PACHUCA, MEX - PACHUCA ROCK FEST" },
+    { date: "20.NOV", year: 2026, location: "SANTA TECLA, SV - SALÓN ADALBERTO GUIROLA" },
+    { date: "21.NOV", year: 2026, location: "GUATEMALA, GT - PARQUE DE LA INDUSTRIA" },
     { date: "25.NOV", year: 2026, location: "MÉRIDA, MX - HAPPY FEST, EMO FOREVER" },
  
   ];
@@ -75,23 +77,6 @@ export default function TourSection() {
   // Links para cada fecha del tour
   const tourLinks = {
     "26.SEP": "#",
-    "20.FEB":
-      "https://eventos.taquillaplus.com.mx/eventperformances.asp?evt=636",
-    "21.FEB":
-      "https://eventos.taquillaplus.com.mx/eventperformances.asp?evt=616",
-    "22.FEB": "https://boleticka.com/puntoVenta/#/preview/136",
-    "28.FEB": "https://www.eticket.mx/masinformacion.aspx?idevento=34254",
-    "15.MAR": "https://www.vivelatino.com.mx/boletos",
-    "28.MAR": "https://www.tecatepalnorte.com/boletos",
-    "11.ABR":
-      "https://www.ticketnowmexico.com/evento/presentacion/allison-en-c4-concert-house/918",
-    "26.ABR": "https://www.feriasanmarcos.com/eventos/foro-del-lago/",
-    "01.MAY": "https://www.superboletos.com/landing-evento/2PwXQC9H2Moo5wUENjVDVg",
-    "16.MAY": "https://www.facebook.com/DireccionMunicipalDeCulturaDeLaPaz",
-    "13.JUN": "https://cascaritafutfest13.boletia.com/",
-    "25.JUL": "https://vanswarpedtourlongbeach.frontgatetickets.com/?_ga=2.145257203.697278282.1753991570-1396607449.1746815214&fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*197lp5n*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTg1MjI1NDk4Ni4xNzcyNzQxMTg0*_ga_9Y39919PMG*czE3NzI3NDExODQkbzEkZzAkdDE3NzI3NDExODQkajYwJGwwJGgxOTMwNzIyNjU1",
-    "01.AGO": "https://www.mitaquilla.com.co/allison-bogota/",
-    "22.AGO": "https://www.facebook.com/profile.php?id=61550956457949",
     "10.SEP": "https://imct.gov.co/feria-bonita/",
     "12.SEP": "https://www.vanswarpedtourmexico.com/?_gl=1*w8pkv*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.",
     "15.SEP": "https://www.ticketmaster.com/event/3A0064729BC87FD9",
@@ -108,9 +93,12 @@ export default function TourSection() {
     "01.OCT": "https://www.joinnus.com/events/concerts/huancayo-allison-en-huancayo-euforia-tour-77135",
     "02.OCT": "https://www.joinnus.com/events/concerts/arequipa-allison-en-arequipa-euforia-tour-76340?fbclid=IwY2xjawSBkDNleHRuA2FlbQIxMABicmlkETFhZXNVSnMwM0g0b2lqUjhkc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiduvG2EHDxvIqgnPhNSoZbDusrLoupidhp1laLO2B4QSnbr-YVT82Ltl4nn_aem_JwkqCL_DPMMKrBYTjjINQw",
     "03.OCT": "https://www.passline.com/eventos/allison-en-lima-euforia-tour",
+    "09.OCT": "https://checkout.arema.mx/81992",
     "24.OCT": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A",
     "14.NOV": "https://vanswarpedtourorlando.frontgatetickets.com/?fbp=fb.1.1771895433734.213437776649056110&ttp=01KJ6K58TRKYNN4KBRYFP23HST_.tt.1&external_id=5tXuFzt7rIxQxMis&_gl=1*60zap4*_gcl_au*NzA3MTIxNDU2LjE3NzE4OTU0MzI.*_ga*MTI0NDYyMzQxOS4xNzcyNzQxMTgy*_ga_9Y39919PMG*czE3NzI3NDExODEkbzEkZzAkdDE3NzI3NDExODEkajYwJGwwJGgxNzA0OTEyMTAw",
     "15.NOV": "https://pachuca-rock-fest-2026.boletia.com/",
+    "20.NOV": "https://www.digiticket.online/events/allison-en-guatemala",
+    "21.NOV": "https://www.digiticket.online/events/allison-en-el-salvador",
     "25.NOV": "https://tusboletos.mx/evento/happy-fest-emo-forever-merida",
   };
 
