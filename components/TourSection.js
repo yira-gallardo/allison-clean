@@ -61,8 +61,8 @@ export default function TourSection() {
     { date: "26.SEP", year: 2026, location: "FRESNO, USA - TOWER THEATRRE LOUNGE" },
     { date: "27.SEP", year: 2026, location: "SANTA ANA, USA - CONSTELLATION ROOM (SOLD OUT!)" },
     { date: "28.SEP", year: 2026, location: "SANTA ANA, USA - CONSTELLATION ROOM" },
-    { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - TEATRO FÉNIX" },
-    { date: "02.OCT", year: 2026, location: "AREQUIPA, PE - TEATRO FÉNIX" },
+    { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - CAFÉ SHOW ANTONELLA'S" },
+    { date: "02.OCT", year: 2026, location: "AREQUIPA, PE - CLANDESTINO DISCO" },
     { date: "03.OCT", year: 2026, location: "LIMA, PE - CC FESTIVA" },
     { date: "09.OCT", year: 2026, location: "PUEBLA, MX - AUDITORIO AREMA" },
     { date: "24.OCT", year: 2026, location: "MONTERREY, MX - CAFÉ IGUANA" },
@@ -70,7 +70,7 @@ export default function TourSection() {
     { date: "15.NOV", year: 2026, location: "PACHUCA, MEX - PACHUCA ROCK FEST" },
     { date: "20.NOV", year: 2026, location: "SANTA TECLA, SV - SALÓN ADALBERTO GUIROLA" },
     { date: "21.NOV", year: 2026, location: "GUATEMALA, GT - PARQUE DE LA INDUSTRIA" },
-    { date: "25.NOV", year: 2026, location: "MÉRIDA, MX - HAPPY FEST, EMO FOREVER" },
+    { date: "28.NOV", year: 2026, location: "MÉRIDA, MX - HAPPY FEST, EMO FOREVER" },
  
   ];
 
@@ -99,7 +99,7 @@ export default function TourSection() {
     "15.NOV": "https://pachuca-rock-fest-2026.boletia.com/",
     "20.NOV": "https://www.digiticket.online/events/allison-en-guatemala",
     "21.NOV": "https://www.digiticket.online/events/allison-en-el-salvador",
-    "25.NOV": "https://tusboletos.mx/evento/happy-fest-emo-forever-merida",
+    "28.NOV": "https://tusboletos.mx/evento/happy-fest-emo-forever-merida",
   };
 
   // Filtrar solo las fechas futuras y excluir fechas específicas
