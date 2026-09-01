@@ -61,7 +61,7 @@ export default function TourSection() {
     { date: "26.SEP", year: 2026, location: "FRESNO, USA - TOWER THEATRRE LOUNGE" },
     { date: "27.SEP", year: 2026, location: "SANTA ANA, USA - CONSTELLATION ROOM (SOLD OUT!)" },
     { date: "28.SEP", year: 2026, location: "SANTA ANA, USA - CONSTELLATION ROOM" },
-    { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - CAFÉ SHOW ANTONELLAS" },
+    { date: "01.OCT", year: 2026, location: "HUANCAYO, PE - CAFÉ SHOW ANTONELLA'S" },
     { date: "02.OCT", year: 2026, location: "AREQUIPA, PE - CLANDESTINO DISCO" },
     { date: "03.OCT", year: 2026, location: "LIMA, PE - CC FESTIVA" },
     { date: "09.OCT", year: 2026, location: "PUEBLA, MX - AUDITORIO AREMA" },
